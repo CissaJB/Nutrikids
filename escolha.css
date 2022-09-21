@@ -1,0 +1,39 @@
+*{
+    background-color: #89FEE9;  
+  }
+  
+  div{
+    display: inline-block;
+  }
+
+  #escolha{
+    height:200px;
+    width: 200px;
+    border-radius: 25px;
+
+  }
+  #logo{
+    
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height:25vh;
+        justify-content: center;
+        margin-bottom: 50px;
+        
+    }
+@media(max-width: 425px){
+   #logo {
+    width: 100%;
+  }
+ }
+
+
+  a{
+    align-content: center;
+    padding: 20px; 
+  }
+
+  #escolha:hover{
+    box-shadow: 8px 8px 8px black;
+  }

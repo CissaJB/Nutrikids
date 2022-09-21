@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <title>Memory Game | Frutas</title>
+  
+  <script>
+  function funcao1(){
+swal("Laranja", "Ajuda no funcionamento do sistema digestivo e grande fonte de vitamina C");
+  }
+  function funcao2(){
+swal("Melancia", "Faz bem para a visão e contribui com o funcionamento cerebral ");
+  }
+   function funcao3(){
+swal("Maçã", "Boa para o coração e previne cáries");
+  }
+    function funcao4(){
+swal("Abacaxi", "Emagrece e previne o envelhecimento");
+  }  
+  </script>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="memory-game">
+    <div class="memory-card" data-framework="laranja" >
+      <img class="front-face" src="img/laranja.jpeg" alt="Laranja" />
+      <img class="back-face" src="img/frutas.jpg" alt="Frutas" />
+    </div>
+    <div class="memory-card" data-framework="laranja" id=l>
+      <img class="front-face" src="img/laranja.jpeg" alt="Laranja" />
+      <img class="back-face" src="img/frutas.jpg" alt="Frutas" />
+    </div>
+
+    <div class="memory-card" data-framework="abacaxi">
+      <img class="front-face" src="img/abacaxi.jpeg" alt="Abacaxi" />
+      <img class="back-face" src="img/frutas.jpg" alt="Frutas" />
+    </div>
+    <div class="memory-card" data-framework="abacaxi">
+      <img class="front-face" src="img/abacaxi.jpeg" alt="Abacaxi" />
+      <img class="back-face" src="img/frutas.jpg" alt="Frutas" />
+    </div>
+
+    <div class="memory-card" data-framework="maçã">
+      <img class="front-face" src="img/maçã.jpeg" alt="Maçã" />
+      <img class="back-face" src="img/frutas.jpg" alt="Frutas" />
+    </div>
+    <div class="memory-card" data-framework="maçã">
+      <img class="front-face" src="img/maçã.jpeg" alt="Maçã" />
+      <img class="back-face" src="img/frutas.jpg" alt="Frutas" />
+    </div>
+
+    <div class="memory-card" data-framework="melancia">
+      <img class="front-face" src="img/melancia.jpeg" alt="Melancia" />
+      <img class="back-face" src="img/frutas.jpg" alt="Frutas" />
+    </div>
+    <div class="memory-card" data-framework="melancia">
+      <img class="front-face" src="img/melancia.jpeg" alt="Melancia" />
+      <img class="back-face" src="img/frutas.jpg" alt="Frutas" />
+    </div>
+    
+ <a href=escolha.html>Menu Principal</a>
+  </section>
+
+
+  <script src="scripts.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
